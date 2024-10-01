@@ -11,18 +11,18 @@ public class Main {
         System.out.println("Enter the file path of the book list: ");
         String filePath = scanner.nextLine();
 
-        // Use factory to get the appropriate reader based on file extension
+
         BookReader bookReader = BookReaderFactory.getBookReader(filePath);
 
+
         try {
-            // Read books using the appropriate reader
+
             List<Book> books = bookReader.readBooks(filePath);
 
-            // Example: Print total number of books read
+
             System.out.println("\nTotal number of books read: " + books.size());
 
-            // Additional logic to answer Alice's queries (e.g., total pages, genre frequency, etc.)
-            printBookDetails(books);
+              printBookDetails(books);
 
         } catch (IOException | ParserConfigurationException | SAXException e) {
             System.out.println("Error reading the book file: " + e.getMessage());
