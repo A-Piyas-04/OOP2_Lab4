@@ -14,7 +14,7 @@ public class XMLBookReader implements BookReader {
         List<Book> books = new ArrayList<>();
 
         Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(filePath));
-        doc.getDocumentElement().normalize();  // Optional but recommended
+        doc.getDocumentElement().normalize();
 
         NodeList bookNodes = doc.getElementsByTagName("book");
 
