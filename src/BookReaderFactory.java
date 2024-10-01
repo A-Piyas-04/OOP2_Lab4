@@ -1,6 +1,6 @@
 public class BookReaderFactory {
 
-    public static BookReader createReader(String fileType) {
+    public static BookReader getBookReader(String fileType) {
         switch (fileType.toLowerCase()) {
             case "csv":
                 return new CSVBookReader();

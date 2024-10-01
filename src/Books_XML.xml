@@ -1,45 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<root>
-    <row-0>
-        <row-180>320</row-180>
-        <The Great Gatsby>Atomic Habits</The Great Gatsby>
-        <F. Scott Fitzgerald>James Clear</F. Scott Fitzgerald>
-        <Classic>Self-Help</Classic>
-        <1/5/2023>2/14/2023</1/5/2023>
-</row-0>
-<row-1>
-<row-180>310</row-180>
-<The Great Gatsby>The Hobbit</The Great Gatsby>
-<F. Scott Fitzgerald>J.R.R. Tolkien</F. Scott Fitzgerald>
-<Classic>Fantasy</Classic>
-<1/5/2023>3/1/2023</1/5/2023>
-        </row-1>
-<row-2>
-<row-180>498</row-180>
-<The Great Gatsby>Sapiens</The Great Gatsby>
-<F. Scott Fitzgerald>Yuval Noah Harari</F. Scott Fitzgerald>
-<Classic>Non-Fiction</Classic>
-<1/5/2023>4/10/2023</1/5/2023>
-        </row-2>
-<row-3>
-<row-180>279</row-180>
-<The Great Gatsby>Pride and Prejudice</The Great Gatsby>
-<F. Scott Fitzgerald>Jane Austen</F. Scott Fitzgerald>
-<Classic>Classic</Classic>
-<1/5/2023>4/25/2023</1/5/2023>
-        </row-3>
-<row-4>
-<row-180>412</row-180>
-<The Great Gatsby>Dune</The Great Gatsby>
-<F. Scott Fitzgerald>Frank Herbert</F. Scott Fitzgerald>
-<Classic>Sci-Fi</Classic>
-<1/5/2023>5/18/2023</1/5/2023>
-        </row-4>
-<row-5>
-<row-180>334</row-180>
-<The Great Gatsby>Educated</The Great Gatsby>
-<F. Scott Fitzgerald>Tara Westover</F. Scott Fitzgerald>
-<Classic>Memoir</Classic>
-<1/5/2023>6/12/2023</1/5/2023>
-        </row-5>
-        </root>
+<books>
+    <book>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <genre>Self-Help</genre>
+        <pages>320</pages>
+        <date_read>2023-02-14</date_read>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <pages>310</pages>
+        <date_read>2023-03-01</date_read>
+    </book>
+    <book>
+        <title>The Lean Startup</title>
+        <author>Eric Ries</author>
+        <genre>Business</genre>
+        <pages>336</pages>
+        <date_read>2023-01-10</date_read>
+    </book>
+</books>
